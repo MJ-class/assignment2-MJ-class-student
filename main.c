@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main()
+int main(int argc, char** argv)
 {
-    printf("hey!!\n");
+    int n;
+    scanf("%d", &n);
+    printf("hey%d!!\n", n);
 }
